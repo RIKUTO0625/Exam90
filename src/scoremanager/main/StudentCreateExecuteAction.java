@@ -35,10 +35,9 @@ public class StudentCreateExecuteAction extends Action {
 		int year = todaysDate.getYear();// 現在の年を取得
 		List<Integer> entYearSet = new ArrayList<>();//入学年度のリストを初期化
 
-		System.out.println("★");
+
 		//リクエストパラメータ―の取得 2
 		entYear = Integer.parseInt(req.getParameter("ent_year"));//入学年度
-		System.out.println("★");
 		no = req.getParameter("no");//学生番号
 		name = req.getParameter("name");//氏名
 		classNum = req.getParameter("class_num");//クラス番号
